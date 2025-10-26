@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+a.active{
+  @apply bg-base-300;
+}

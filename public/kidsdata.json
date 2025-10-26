@@ -1,0 +1,132 @@
+[
+  {
+    "toyId": 1,
+    
+    "toyName": "Lego Classic Bricks",
+    "sellerName": "Toys R Us Local",
+    "sellerEmail": "contact@toysruslocal.com",
+    "price": 49.99,
+    "rating": 4.7,
+    "availableQuantity": 75,
+    "description": "A timeless set of colorful Lego bricks that encourages creativity and problem-solving. Kids can build anything they imagine, from houses to vehicles.",
+    "pictureURL": "https://www.lego.com/cdn/cs/set/assets/bltbcfcf384c7e75fd6/10713_Prod.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "subCategory": "Building Blocks"
+  },
+  {
+    "toyId": 2,
+    
+    "toyName": "Plush Teddy Bear",
+    "sellerName": "Happy Hearts Toys",
+    "sellerEmail": "hello@happyhearts.com",
+    "price": 19.99,
+    "rating": 4.9,
+    "availableQuantity": 120,
+    "description": "A soft, cuddly teddy bear perfect for hugs and bedtime comfort. Made from high-quality hypoallergenic materials.",
+    "pictureURL": "https://m.media-amazon.com/images/I/71yG8cwiOwL._AC_SL1500_.jpg",
+    "subCategory": "Stuffed Animals"
+  },
+  {
+    "toyId": 3,
+    
+    "toyName": "Remote Control Car",
+    "sellerName": "Zoomy Toys",
+    "sellerEmail": "support@zoomytoys.com",
+    "price": 35.5,
+    "rating": 4.5,
+    "availableQuantity": 60,
+    "description": "High-speed remote control car with rechargeable batteries and durable wheels for indoor and outdoor play.",
+    "pictureURL": "https://image.made-in-china.com/202f0j00FuMqNsorLhpl/Flytec-New-Fy-16101-1-16-RC-Car-with-LED-Headlights-4WD-38km-H-High-Speed-Remote-Control-Vehicles-off-Road-RC-Monster-Truck-for-Kids.webp",
+    "subCategory": "Vehicles"
+  },
+  {
+    "toyId": 4,
+    
+    "toyName": "Wooden Train Set",
+    "sellerName": "Tiny Tracks Co.",
+    "sellerEmail": "info@tinytracks.com",
+    "price": 29.99,
+    "rating": 4.6,
+    "availableQuantity": 90,
+    "description": "Classic wooden train set with magnetic cars and tracks. Encourages imaginative play and fine motor skills.",
+    "pictureURL": "https://assets.pkimgs.com/pkimgs/rk/images/dp/wcm/202537/0022/wooden-train-set-o.jpg",
+    "subCategory": "Vehicles"
+  },
+  {
+    "toyId": 5,
+    
+    "toyName": "Kids Art Kit",
+    "sellerName": "Creative Minds",
+    "sellerEmail": "sales@creativeminds.com",
+    "price": 24.99,
+    "rating": 4.8,
+    "availableQuantity": 150,
+    "description": "A complete art set including crayons, watercolors, markers, and sketch pad for young artists to express creativity.",
+    "pictureURL": "https://m.media-amazon.com/images/I/81OfJtkadtL.jpg",
+    "subCategory": "Art & Crafts"
+  },
+  {
+    "toyId": 6,
+    
+    "toyName": "Puzzle Blocks Set",
+    "sellerName": "SmartPlay",
+    "sellerEmail": "help@smartplay.com",
+    "price": 15.75,
+    "rating": 4.4,
+    "availableQuantity": 85,
+    "description": "A colorful set of puzzle-shaped blocks that helps develop spatial thinking and coordination for kids aged 3+.",
+    "pictureURL": "https://5.imimg.com/data5/QC/PS/BW/SELLER-35805553/barodian-s-numeric-eva-blocks-puzzle-set-for-kids-500x500.jpg",
+    "subCategory": "Puzzles"
+  },
+  {
+    "toyId": 7,
+    
+    "toyName": "Dollhouse Play Set",
+    "sellerName": "Little Dreams",
+    "sellerEmail": "contact@littledreams.com",
+    "price": 59.0,
+    "rating": 4.9,
+    "availableQuantity": 40,
+    "description": "Beautiful wooden dollhouse with furniture and accessories for endless pretend play fun.",
+    "pictureURL": "https://deaotoys.com/cdn/shop/files/DH-71_530x@2x.jpg?v=1757062349",
+    "subCategory": "Pretend Play"
+  },
+  {
+    "toyId": 8,
+    
+    "toyName": "Rubber Duck Set",
+    "sellerName": "Splashy Fun",
+    "sellerEmail": "info@splashyfun.com",
+    "price": 9.99,
+    "rating": 4.3,
+    "availableQuantity": 200,
+    "description": "Bright yellow rubber ducks that make bath time fun for babies and toddlers.",
+    "pictureURL": "https://media.johnlewiscontent.com/i/JohnLewis/111783382?fmt=auto&$background-off-white$",
+    "subCategory": "Bath Toys"
+  },
+  {
+    "toyId": 9,
+    
+    "toyName": "Kids Drum Set",
+    "sellerName": "Beat Buddies",
+    "sellerEmail": "music@beatbuddies.com",
+    "price": 42.0,
+    "rating": 4.5,
+    "availableQuantity": 55,
+    "description": "Mini drum kit designed for kids with durable drums and sticks to spark musical interest early.",
+    "pictureURL": "https://i.ebayimg.com/images/g/cr8AAOSwKmNmVFsI/s-l1200.jpg",
+    "subCategory": "Musical Instruments"
+  },
+  {
+    "toyId": 10,
+    
+    "toyName": "Space Explorer Rocket",
+    "sellerName": "Galaxy Toys",
+    "sellerEmail": "support@galaxytoys.com",
+    "price": 39.99,
+    "rating": 4.6,
+    "availableQuantity": 70,
+    "description": "Interactive rocket ship toy with lights, sounds, and astronaut figures for adventurous space play.",
+    "pictureURL": "https://sc04.alicdn.com/kf/Hcce2d1dc7ad146689ed9039478ed09e6I.jpg",
+    "subCategory": "Action & Adventure"
+  }
+]
