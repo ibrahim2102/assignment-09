@@ -10,6 +10,8 @@ function App() {
       <h1 className='text-7xl'>Start</h1>
     </>
   )
+
+  
 }
 
 export default App
