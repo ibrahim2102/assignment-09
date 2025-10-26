@@ -15,7 +15,6 @@ const PetNews = () => {
                     
                          to ={`/pets-news/${sideLink.toyId}`}
 
-
                     > {sideLink.toyName}</NavLink>)
                 }
             </div>
