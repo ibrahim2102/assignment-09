@@ -242,7 +242,7 @@ const PetsNews = () => {
                             {/* Try Now Form */}
                             <div className="space-y-4">
                                 <h3 className="font-semibold text-lg">Try This Toy Now!</h3>
-                                <div className="bg-gradient-to-r from-primary to-secondary text-primary-content p-4 rounded-lg">
+                                <div className="bg-linear-to-r from-primary to-secondary text-primary-content p-4 rounded-lg">
                                     <p className="text-sm mb-4 opacity-90">
                                         Want to try this toy before buying? Fill out the form below and we'll arrange a free trial for you!
                                     </p>
