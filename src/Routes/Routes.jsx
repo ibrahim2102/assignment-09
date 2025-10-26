@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import HomeLayout from "../Layouts/HomeLayout";
+import MainLayout from "../Layouts/MainLayout";
 import Home from "../Pages/Home";
 import PetsNews from "../Pages/PetsNews";
 import Authentication from "../Pages/Authentication";
@@ -11,7 +12,6 @@ import About from "../Pages/About";
 import More from "../Pages/More";
 
 const router = createBrowserRouter([
-
     {
         path: '/',
         element: <HomeLayout></HomeLayout>,
@@ -20,9 +20,8 @@ const router = createBrowserRouter([
                 path: "",
                 element: <Home></Home>
             },
-
             {
-                path: "/pets-news/:id",
+                path: "pets-news/:id",
                 loader: async ({ params }) => {
                     const response = await fetch('/kidsdata.json');
                     const data = await response.json();
@@ -37,39 +36,43 @@ const router = createBrowserRouter([
         ]
     },
     {
-        path: '/auth',
-        element: <Authentication></Authentication>
+        path: '/',
+        element: <MainLayout></MainLayout>,
+        children: [
+            {
+                path: 'auth',
+                element: <Authentication></Authentication>
+            },
+            {
+                path: 'login',
+                element: <Login></Login>
+            },
+            {
+                path: 'my-profile',
+                element: (
+                    <ProtectedRoute>
+                        <Profile></Profile>
+                    </ProtectedRoute>
+                )
+            },
+            {
+                path: "popular-toys",
+                element: <PopularToys></PopularToys>
+            },
+            {
+                path: "about",
+                element: <About></About>
+            },
+            {
+                path: "more",
+                element: <More></More>
+            },
+        ]
     },
     {
-        path: '/login',
-        element: <Login></Login>
-    },
-    {
-        path: '/my-profile',
-        element: (
-            <ProtectedRoute>
-                <Profile></Profile>
-            </ProtectedRoute>
-        )
-    },
-    {
-        path: "/popular-toys",
-        element: <PopularToys></PopularToys>
-    },
-    {
-        path: "/about",
-        element: <About></About>
-    },
-    {
-        path: "/more",
-        element: <More></More>
-    },
-
-    {
-        path: '/*',
+        path: '*',
         element: <div>Error-404</div>
     }
-
 ]);
 
 export default router;

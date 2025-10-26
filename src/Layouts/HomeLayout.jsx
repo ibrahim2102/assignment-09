@@ -4,6 +4,7 @@ import Slider from '../Components/Slider';
 import Leftside from '../Components/LeftSide/Leftside';
 import { Outlet } from 'react-router';
 import Rightside from '../Components/RightSide/Rightside';
+import Footer from '../Components/Footer/Footer';
 
 const HomeLayout = () => {
     const images = [
@@ -38,6 +39,7 @@ const HomeLayout = () => {
 
             <footer className="mt-8">
                 {/* Footer content can be added here */}
+                <Footer></Footer>
             </footer>
         </div>
     );
