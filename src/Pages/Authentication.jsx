@@ -336,6 +336,8 @@ const Authentication = () => {
             </div>
         </div>
     );
+
+    
 };
 
 export default Authentication;
