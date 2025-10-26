@@ -25,18 +25,14 @@ export function AuthProvider({ children }) {
 
   // Sign up function
   async function signup(email, password, firstName, lastName) {
-    try {
-      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-      
-      // Update the user's display name
-      await updateProfile(userCredential.user, {
-        displayName: `${firstName} ${lastName}`
-      });
-      
-      return userCredential;
-    } catch (error) {
-      throw error;
-    }
+    const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+    
+    // Update the user's display name
+    await updateProfile(userCredential.user, {
+      displayName: `${firstName} ${lastName}`
+    });
+    
+    return userCredential;
   }
 
   // Sign in function
@@ -45,13 +41,8 @@ export function AuthProvider({ children }) {
   }
 
   // Google Sign-In function
-  async function signInWithGoogle() {
-    try {
-      const result = await signInWithPopup(auth, googleProvider);
-      return result;
-    } catch (error) {
-      throw error;
-    }
+  function signInWithGoogle() {
+    return signInWithPopup(auth, googleProvider);
   }
 
   // Sign out function
